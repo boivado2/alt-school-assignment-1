@@ -1,0 +1,92 @@
+@import url(./index.css);
+
+
+
+section .info-card {
+
+  min-height: 160px;
+  bottom: -90px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8rem;
+}
+
+input,textarea, select {
+  padding: 0.7rem 2rem;
+  outline: none;
+  font-size: 1rem;
+  width: 100%;
+
+}
+
+textarea {
+  resize: none;
+  height: 248px;
+
+}
+
+
+
+
+/* 
+
+.item1{
+  grid-area: item1;
+}
+
+.item2 {
+  grid-area: item2;
+
+}
+
+.item3 {
+  grid-area: item3;
+
+}
+.item4 {
+  grid-area: item4;
+
+}
+
+.item5 {
+  grid-area: item5;
+
+} */
+
+form {
+  display: grid;
+  /* grid-template-areas: 
+  "item1  item4"
+  "item2  item4"
+  "item3  item4"
+  "item5"
+  ; */
+  grid-template-columns:repeat(4,  minmax(0,1fr));
+  padding: 0.65rem 0.85rem;
+  gap: 1rem;
+
+}
+
+.item1 {
+  grid-row: 1;
+  grid-column: span 2;
+}
+
+.item2 {
+  grid-row: 2;
+  grid-column: span 2;
+}
+
+.item3 {
+  grid-row: 3;
+  grid-column: span 2;
+}
+
+.item4 {
+  grid-row: span 3;
+  grid-column: span 2;
+}
+
+.item5 {
+  grid-column: 4;
+}

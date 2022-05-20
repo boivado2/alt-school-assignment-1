@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Aye Assignment</title>
+  <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+  <header id="header">
+  <div class="container">
+    <nav>
+      <h1 class="brand">AG</h1>
+      <ul class="nav-list">
+        <li class="nav-list-item"><a class="nav-list-link" href="./home.html">Home</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="./about.html">About</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="./contact.html">Contact</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="./login.html">Login</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="./register.html">Register</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+  <main>
+      <section class="hero-section">
+        <article class="container info-card">
+          <h2>Contact Me</h2>
+      </article>
+      </section>
+
+      <section class="contact-section">
+       <div class="container">
+         <form>
+          <div class="form-content item1">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" class="form-input" placeholder="Enter your name">
+          </div>
+          <div class="form-content item2">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required class="form-input" placeholder="Enter email address">
+          </div>
+
+          <div class="form-content item3">
+            <label for="priority">Priority</label>
+            <select name="priority" id="priority">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+
+          <div class="form-content item4">
+            <label for="message">Message</label>
+           <textarea name="message" id="message" required placeholder="Enter message" ></textarea>
+          </div>
+          <input class="item5"  type="submit" value="Submit">
+         </form>
+       </div>
+      </section>
+
+  </main>
+</body>
+</html>
