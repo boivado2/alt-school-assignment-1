@@ -1,0 +1,197 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+:is(h1,h2,h3,h4,h5,h6) {
+  font-size: 1.254srem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+  .container {
+    max-width: 100%;
+    margin: auto;
+  }
+  
+
+
+  /* header and navbar */
+
+  header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brand {
+    color: #fff;
+    padding: 1.2rem 1rem;
+  
+  }
+  
+  nav .nav-list-item {
+    display: inline-block;
+    padding: 1.2rem 1rem;
+  }
+  
+  nav .nav-list-item .nav-list-link {
+    color: #E8F9FD;
+  
+  }
+  
+  
+  /* main section */
+
+  
+section.hero-section {
+  background-color: #0AA1DD;
+
+}
+
+section .info-card {
+  position: relative;
+  bottom: 0px;
+  min-height: 600px;
+  background-color: #fff;
+  padding: 0.8rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  text-overflow: clip;
+  box-shadow: 0px 40px 60px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+.info-card .info-card-image {
+  width: 100%;
+}
+.info-card .info-card-image img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.info-card .info-card-details {
+  padding: 0.8rem 0.8rem;
+  text-align: left;
+  text-overflow: clip;
+
+}
+.info-card-details h2 {
+  margin: 10px 0px;
+}
+
+.info-card-details p {
+  margin: 10px 0px;
+
+}
+
+.info-card-details-contact {
+  margin-top: 3rem;
+}
+
+.info-card-details-social {
+  display: flex;
+  gap: 0.7rem;
+  margin-top: 3rem;
+}
+
+
+/* media queries */
+
+
+
+@media (min-width:480px) {
+  .container {
+    max-width: 480px;
+    margin: auto;
+  }
+
+
+  
+}
+
+@media (min-width:580px) {
+  .container {
+    max-width: 580px;
+    margin: auto;
+  }
+
+
+
+  
+}
+
+@media (min-width:768px) {
+  .container {
+    max-width: 768px;
+    margin: auto;
+    color: #79DAE8;
+  }
+
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  nav .nav-list-item {
+    display: inline-block;
+    padding: 1.2rem 1rem;
+  }
+  
+
+
+
+}
+
+
+
+@media (min-width:1024px) {
+  .container {
+    max-width: 1014px;
+    margin: auto;
+
+  }
+
+
+
+  
+  
+}
+
+
+
+@media (min-width:1440px) {
+  .container {
+    max-width: 1280px;
+    margin: auto;
+
+  }
+  
+}
