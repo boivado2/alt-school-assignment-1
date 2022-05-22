@@ -10,6 +10,9 @@ body {
   font-size: 16px;
 }
 
+
+/* utilities */
+
 a {
   text-decoration: none;
 }
@@ -122,6 +125,32 @@ section .info-card {
   margin-top: 3rem;
 }
 
+/* form inputs */
+
+.form-title {
+  text-align: center;
+  padding: 1.24rem 0.5rem;
+}
+
+input,textarea, select, button {
+  padding: 0.7rem 2rem;
+  outline: none;
+  font-size: 1rem;
+  width: 100%;
+  border: none;
+  background-color: #E8F9FD;
+
+}
+
+textarea {
+  resize: none;
+  height: 248px;
+
+}
+
+
+
+/* footer */
 
 footer {
   background-color: #2155CD;

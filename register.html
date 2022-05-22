@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About me</title>
+  <link rel="stylesheet" href="./register.css">
+</head>
+<body>
+  <header id="header">
+  <div class="container">
+    <nav>
+      <h1 class="brand">AG</h1>
+      <ul class="nav-list">
+        <li class="nav-list-item"><a class="nav-list-link" href="./index.html">Home</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="./about.html">About</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="./contact.html">Contact</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="./login.html">Login</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="./register.html">Register</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+  <main>
+      <section class="container register-form-section">
+        <h2 class="form-title">Register </h2>
+        <form>
+          <div class="nt">
+            <label for="firstName">FirstName</label>
+            <input type="text" name="firstName" id="firstName" class="form-input" placeholder="Enter your first name">
+          </div>
+
+          <div class="nt">
+            <label for="lastName">LastName</label>
+            <input type="text" name="lastName" id="lastName" class="form-input" placeholder="Enter your last name">
+          </div>
+
+          <div class="nt">
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" class="form-input" placeholder="Enter your Phone">
+             
+
+          </div>
+
+          <div class="form-content">
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="none">prefer not to say</option>
+            </select>
+          </div>
+
+          <div class="form-content">
+            <label for="country">Country</label>
+            <input type="text" name="country" id="country" class="form-sinput" placeholder="Enter your Country">
+          </div>
+
+          <div class="form-content>
+            <label for="state">State / Province</label>
+            <input type="text" name="state" id="state" class="form-input" placeholder="Enter your State or Province">
+          </div>
+
+          <div class="form-content">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" class="form-input" placeholder="Enter your username">
+          </div>
+
+          <div class="form-content">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-input" placeholder="Enter your email">
+          </div>
+
+          <div class="form-content">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required class="form-input" placeholder="Enter your password">
+          </div>
+
+          <div class="form-content">
+            <label for="confirm password">Confirm Password</label>
+            <input type="password" name="confirm password" id="confirm password" required class="form-input" placeholder="confirm your password">
+          </div>
+
+     <button>Register</button>
+
+         </form>
+
+         <aside>
+          <p>already have an account ? <a href="./login.html">Login</a></p>
+
+         </aside>
+      </section>
+
+  </main>
+
+
+ 
+</body>
+</html>
