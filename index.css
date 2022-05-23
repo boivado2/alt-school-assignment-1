@@ -74,7 +74,7 @@ section.hero-section {
   height: 100vh;
   position: relative;
   margin-bottom: 6rem;
-  background-image: url("./pexels-lukas-574071.jpg");
+  background-image: url("/pexels-lukas-574071.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -351,5 +351,4 @@ section.hero-section {
 }
   
 }
-
 
