@@ -1,0 +1,66 @@
+@import url(./default.css);
+
+
+#calculator-container {
+  margin: auto;
+  width: 100%;
+  min-height: 500px;
+  padding: 0.5rem 1rem;
+  display: grid;
+  grid-template-columns:repeat(4,  minmax(0,1fr));
+
+}
+
+
+.cal-content {
+  text-align: center;
+  border: 0.6px solid #2155CD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cal-content input {
+  height: 100%; 
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+.cal-content h5 {
+  font-size: 1.525rem;
+  text-align: center;
+}
+
+.cal-content:first-child {
+  grid-column: span 4;
+  border: none;
+}
+
+.cal-content.cal-content:nth-child(9) {
+  grid-column: 4;
+  grid-row: span 4;
+  background-color: #2155CD;
+
+}
+
+.cal-content.cal-content:nth-child(20) {
+  grid-column: span 3;
+  background-color: rgb(196, 79, 79);
+
+}
+
+@media (min-width:768px) {
+  #calculator-container {
+    margin: auto;
+    max-width: 465px;
+    min-height: 500px;
+    padding: 0.5rem 1rem;
+    display: grid;
+    grid-template-columns:repeat(4,  minmax(0,1fr));
+  
+  }
+
+  section.container {
+    padding: 5rem 5rem;
+  }
+}
