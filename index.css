@@ -1,15 +1,24 @@
 @import url(./default.css);
 /* media queries */
 
+section.hero-section {
+  margin-bottom: 17rem;
+
+}
+
+section .info-card {
+  border-radius: 0px;
+
+}
 
 @media (min-width:480px) {
 
 
   section .info-card {
-    bottom: -200px;
+    bottom: -100px;
     border-radius: 10px;
+
     padding: 4rem 6rem;
-    margin-bottom: 17rem;
   }
 
   
@@ -19,8 +28,7 @@
 
 
   section .info-card {
-    bottom: -200px;
-    border-radius: 10px;
+    bottom: -100px;
     padding: 4rem 6rem;
   }
 
