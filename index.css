@@ -1,3 +1,9 @@
+:root {
+  --main-color:#2155CD;
+   --secondary-color:#79DAE8;
+   --primary-color:#0AA1DD;
+   --light-color:#E8F9FD;
+ }
 
 *{
   padding: 0;
@@ -42,7 +48,7 @@ img {
 
   /* header and navbar */
   header {
-    background-color: #0AA1DD;
+    background-color: var(--primary-color);
   }
 
   header nav {
@@ -53,7 +59,7 @@ img {
   }
   
   .brand {
-    color: #E8F9FD;
+    color: var(--light-color);
     padding: 1.2rem 1rem;
   
   }
@@ -64,7 +70,7 @@ img {
   }
   
   nav .nav-list-item .nav-list-link {
-    color: #E8F9FD;
+    color: var(--light-color);
   
   }
 
@@ -78,7 +84,7 @@ section.hero-section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  color: white;
+  color: var(--light-color);
   z-index: 10;
 }
 
@@ -123,7 +129,7 @@ section .info-card .info-card-details-social {
   margin-top: 3rem;
 }
 .info-card .info-card-details-social a {
-  color: white;
+  color: var(--light-color);
 }
 
 
@@ -161,7 +167,7 @@ section .info-card .info-card-details-social {
 /* footer */
 
 footer {
-  background-color: #2155CD;
+  background-color: var(--main-color);
   padding: 4rem 1rem 1rem 1rem;
   margin-top: 4rem;
 }
@@ -185,7 +191,7 @@ footer section nav {
 
 
 footer section nav .brand {
-  color: #E8F9FD;
+  color: var(--light-color);
   border-bottom: 0.1px solid white;
   width: 100%;
 text-align: center; 
@@ -199,16 +205,16 @@ footer section nav ul li  {
 }
 
 footer section .nav-list-item .nav-list-link {
-  color: #E8F9FD;
+  color: var(--light-color);
 }
 
 footer section nav .brand {
-  color: #E8F9FD;
+  color: var(--light-color);
 }
 
 footer section p {
   text-align: center;
-  color: #E8F9FD;
+  color: var(--light-color);
 
 }
 
@@ -228,16 +234,16 @@ footer section p {
   }
 
   header {
-    background-color: #E8F9FD;
+    background-color: var(--light-color);
   }
 
   nav .nav-list-item .nav-list-link {
-    color: #0AA1DD;
+    color: var(--primary-color);
   
   }
 
   .brand {
-    color: #0AA1DD;
+    color: var(--primary-color);
   }
 
 

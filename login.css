@@ -1,3 +1,10 @@
+:root {
+ --main-color:#2155CD;
+  --secondary-color:#79DAE8;
+  --primary-color:#0AA1DD;
+  --light-color:#E8F9FD;
+}
+
 
 *{
   padding: 0;
@@ -46,7 +53,7 @@ img {
 
   /* header and navbar */
   header {
-    background-color: #0AA1DD;
+    background-color: var(--primary-color);
   }
 
   header nav {
@@ -57,7 +64,7 @@ img {
   }
   
   .brand {
-    color: #E8F9FD;
+    color: var(--light-color);
     padding: 1.2rem 1rem;
   
   }
@@ -68,7 +75,7 @@ img {
   }
   
   nav .nav-list-item .nav-list-link {
-    color: #E8F9FD;
+    color: var(--light-color);
   
   }
 
@@ -88,7 +95,7 @@ input,textarea, select, button {
   font-size: 1rem;
   width: 100%;
   border: none;
-  background-color: #E8F9FD;
+  background-color:var(--light-color);
 
 }
 
@@ -112,6 +119,14 @@ textarea {
 .login-form-section form button {
 
   width: fit-content;
+  background-color: var(--main-color);
+  color:var(--light-color);
+}
+
+
+.login-form-section form button:hover {
+  background-color: rgba(33, 85, 205, 0.8);
+
 }
 
 .login-form-section aside {
@@ -136,16 +151,16 @@ textarea {
   }
 
   header {
-    background-color: #E8F9FD;
+    background-color: var(--light-color);
   }
 
   nav .nav-list-item .nav-list-link {
-    color: #0AA1DD;
+    color: var(--primary-color);
   
   }
 
   .brand {
-    color: #0AA1DD;
+    color: var(--primary-color);
   }
 
 
@@ -184,7 +199,6 @@ textarea {
   .container {
     max-width: 768px;
     margin: auto;
-    color: #79DAE8;
   }
 
   header nav {

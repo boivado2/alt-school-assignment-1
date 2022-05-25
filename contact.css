@@ -1,5 +1,10 @@
-@import url(./default.css);
-
+:root {
+  --main-color:#2155CD;
+   --secondary-color:#79DAE8;
+   --primary-color:#0AA1DD;
+   --light-color:#E8F9FD;
+ }
+ 
 *{
   padding: 0;
   margin: 0;
@@ -46,7 +51,7 @@ img {
 
   /* header and navbar */
   header {
-    background-color: #0AA1DD;
+    background-color: var(--primary-color);
   }
 
   header nav {
@@ -57,7 +62,7 @@ img {
   }
   
   .brand {
-    color: #E8F9FD;
+    color: var(--light-color);
     padding: 1.2rem 1rem;
   
   }
@@ -68,13 +73,13 @@ img {
   }
   
   nav .nav-list-item .nav-list-link {
-    color: #E8F9FD;
+    color: var(--light-color);
   
   }
 
 
 .hero-section {
-  background-color: #0AA1DD;
+  background-color: var(--primary-color);
 }
 
 
@@ -126,7 +131,7 @@ section .info-card {
     font-size: 1rem;
     width: 100%;
     border: none;
-    background-color: #E8F9FD;
+    background-color: var(--light-color);
   
   }
   
@@ -143,6 +148,16 @@ form {
 
 }
 
+input[type="submit"] {
+  background-color: rgb(33, 85, 205);
+  color: var(--light-color);
+
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(33, 85, 205, 0.8);
+
+}
 
 
 
@@ -174,7 +189,7 @@ footer section nav {
 
 
 footer section nav .brand {
-  color: #E8F9FD;
+  color: var(--light-color);
   border-bottom: 0.1px solid white;
   width: 100%;
 text-align: center; 
@@ -188,16 +203,16 @@ footer section nav ul li  {
 }
 
 footer section .nav-list-item .nav-list-link {
-  color: #E8F9FD;
+  color: var(--light-color);
 }
 
 footer section nav .brand {
-  color: #E8F9FD;
+  color: var(--light-color);
 }
 
 footer section p {
   text-align: center;
-  color: #E8F9FD;
+  color: var(--light-color);
 
 }
 
@@ -222,16 +237,16 @@ footer section p {
   }
 
   header {
-    background-color: #E8F9FD;
+    background-color: var(--light-color);
   }
 
   nav .nav-list-item .nav-list-link {
-    color: #0AA1DD;
+    color: var(--primary-color);
   
   }
 
   .brand {
-    color: #0AA1DD;
+    color: var(--primary-color);
   }
 
   section .info-card {
@@ -277,7 +292,7 @@ footer section p {
   .container {
     max-width: 768px;
     margin: auto;
-    color: #79DAE8;
+    color: var(--light-color);
   }
 
   header nav {

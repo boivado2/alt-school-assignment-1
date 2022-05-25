@@ -1,3 +1,9 @@
+:root {
+  --main-color:#2155CD;
+   --secondary-color:#79DAE8;
+   --primary-color:#0AA1DD;
+   --light-color:#E8F9FD;
+ }
 
 *{
   padding: 0;
@@ -42,7 +48,7 @@ img {
 
   /* header and navbar */
   header {
-    background-color: #0AA1DD;
+    background-color: var(--primary-color);
   }
 
   header nav {
@@ -53,7 +59,7 @@ img {
   }
   
   .brand {
-    color: #E8F9FD;
+    color: var(--light-color);
     padding: 1.2rem 1rem;
   
   }
@@ -64,7 +70,7 @@ img {
   }
   
   nav .nav-list-item .nav-list-link {
-    color: #E8F9FD;
+    color: var(--light-color);
   
   }
 
@@ -95,9 +101,10 @@ img {
   font-size: 1.5rem;
 }
 
-.cal-content h5 {
+.cal-content span {
   font-size: 1.525rem;
   text-align: center;
+  color: var(--primary-color);
 }
 
 .cal-content:first-child {
@@ -108,7 +115,7 @@ img {
 .cal-content.cal-content:nth-child(9) {
   grid-column: 4;
   grid-row: span 4;
-  background-color: #2155CD;
+  background-color: var(--light-color);
 
 }
 
@@ -125,7 +132,7 @@ input,textarea, select, button {
   font-size: 1rem;
   width: 100%;
   border: none;
-  background-color: #E8F9FD;
+  background-color: var(--light-color);
 
 }
 
@@ -144,16 +151,16 @@ input,textarea, select, button {
   }
 
   header {
-    background-color: #E8F9FD;
+    background-color: var(--light-color);
   }
 
   nav .nav-list-item .nav-list-link {
-    color: #0AA1DD;
+    color: var(--primary-color);
   
   }
 
   .brand {
-    color: #0AA1DD;
+    color: var(--primary-color);
   }
 
 
@@ -192,7 +199,7 @@ input,textarea, select, button {
   .container {
     max-width: 768px;
     margin: auto;
-    color: #79DAE8;
+    color: var(--light-color);
   }
 
   header nav {
