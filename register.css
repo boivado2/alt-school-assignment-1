@@ -110,6 +110,16 @@ form {
   align-items: center;
   justify-content: center;
 }
+.form-title {
+  text-align: center;
+  padding: 1.24rem 0.5rem;
+  color: var(--primary-color);;
+
+}
+
+form label {
+  color: var(--primary-color);;
+}
 
 form button {
   width: fit-content;

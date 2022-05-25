@@ -95,6 +95,7 @@ section .info-card {
   justify-content: center;
   margin-bottom: 8rem;
   bottom: 0px;
+  color: var(--primary-color);
 
 }
 
@@ -146,6 +147,10 @@ form {
   padding: 0.65rem 0.85rem;
   gap: 1rem;
 
+}
+
+form label {
+  color: var(--primary-color);;
 }
 
 input[type="submit"] {
